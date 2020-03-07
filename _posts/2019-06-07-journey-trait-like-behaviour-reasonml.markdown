@@ -2,7 +2,8 @@
 layout: post
 title:  "Journey to Trait-like behaviour in ReasonML/OCaml"
 date:   2019-06-07 14:11:05 -0300
-categories: reasonml rust ocaml
+categories: [reasonml, ocaml]
+tags: [functor, rust]
 ---
 ## Motivation
 I have been using ReasonML as a replacement for JavaScript on the front-end development for my startup for quite some time now. But with a powerful type-system, it makes me miss Rust type-system features.
