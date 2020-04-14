@@ -40,7 +40,7 @@ Here `FnPlus` is abstracting `(el, acc) => el + acc`, and
 The first type argument for `FnPlus` is `(int, int)` which
 will hold our function arguments, the second type argument is
 a `int` that represents the result of the function. The same structure
-applies to `FnPlusCons(int)`, but with an adittional `int` which will hold
+applies to `FnPlusCons(int)`, but with an additional `int` which will hold
 what was the `n` in `let add = (n, list) => fold((el, acc) => [el + n, ...acc], [], list);`
 
 Now we can write an `apply` helper function as:
